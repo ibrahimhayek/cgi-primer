@@ -1,0 +1,65 @@
+/*
+* This is css file here all css written
+*/
+.body_container {
+    margin: auto;
+    width: 980px;
+}
+.clear {
+    clear: both;
+}
+.f_left {
+    float: left;
+}
+.shows_search_form_holder {
+    background: #d02020 none repeat scroll 0 0;
+    color: #fff;
+    font-weight: bold;
+    padding: 20px;
+    width: 96%;
+}
+.banner_image {
+    width: 100%;
+}
+.lable_holder {
+    height: 50px;
+    line-height: 50px;
+    width: 130px;
+}
+.input_holder {
+    height: 50px;
+    line-height: 50px;
+}
+.submit_button_holder > input {
+    background: #f87e50 none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+.search_results_holder {
+    margin-top: 10px;
+    padding: 20px;
+}
+.single_search_element_holder {
+    margin-bottom: 15px;
+    padding: 20px;
+}
+.image_container > img {
+    max-width: 200px;
+}
+.image_container {
+    padding: 10px;
+}
+.single_search_element_holder:nth-child(2n+1) {
+    background: #feba6b none repeat scroll 0 0;
+    padding: 20px;
+}
+.single_search_element_holder:nth-child(2n) {
+    background: #ffd88a none repeat scroll 0 0;
+}
+
+.show_details_container {
+    width: 70%;
+}
