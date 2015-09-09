@@ -12,3 +12,8 @@ b) It is not working on the csun web drive environment, I believe due to not hav
 c) I included a json-parse.cgi file to show I can parse through a defined JSON without a library
 
 d) I will try and update this with a live URL to my localhost so you can see that this works.
+
+-----Update 9/8/2015-----
+I used a spare server and domain I had to create the environment that would run my project so that you can visualy see it.
+
+URL: http://shriram-services.com/cgi-bin/shows/index.cgi
