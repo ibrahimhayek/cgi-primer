@@ -54,13 +54,13 @@ $html.='</div>';
 $html.='</div>';
 $html.='<div class="main_content_holder">';
 $html.='<div class="shows_search_form_holder">';
+$html.='<h2>Please type in a Zip Code and Radius (miles) to Find Live Theatre in Los Angeles</h2>';
 $html.='<form action="" method="get"> ';
 $html.='<div class="single_field_holder">';
 $html.='<div class="lable_holder f_left">';
 $html.='Zip Code :';
 $html.='</div>';
 $html.='<div class="input_holder f_left">';
-$html.='<h2>Please type in a Zip Code and Radius (miles) to Find Live Theatre in Los Angeles</h2>';
 $html.='<input type="text" required="required" name="zipcode" value="'.$getRequest{'zipcode'}.'">';
 $html.='</div>';
 $html.='<div class="clear"></div>';
@@ -99,8 +99,6 @@ if($checking>=2)
     } else {
         binmode STDOUT,':raw';
     }
-    # my $result = decode_json($content);
-    #print $content;
     # this is to decode the json into an array
     my $result = decode_json($content);
 
